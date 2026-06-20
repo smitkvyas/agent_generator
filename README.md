@@ -1,4 +1,4 @@
-# RAG Agent Generator
+# Agent Generator
 
 A FastAPI-based service for building and running retrieval-augmented generation (RAG) agents backed by FAISS and Hugging Face embeddings.
 
