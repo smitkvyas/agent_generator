@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  rag-agents:
+    build: .
+    container_name: rag-agents
+    ports:
+      - "8686:8686"
+    volumes:
+      - ./data:/app/data   # FAISS index persistence
+      - ~/.cache/huggingface:/root/.cache/huggingface
+    restart: unless-stopped

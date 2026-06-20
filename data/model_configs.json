@@ -1,0 +1,72 @@
+{
+  "1033f2eb-ba92-4bf0-aab5-701a44e31aa4": {
+    "model_id": "1033f2eb-ba92-4bf0-aab5-701a44e31aa4",
+    "name": "Allam",
+    "model_name": "allam-2-7b",
+    "provider": "groq",
+    "task": "chat",
+    "description": "",
+    "created_at": "2026-06-18T08:13:27.583122+00:00",
+    "updated_at": "2026-06-18T08:13:27.583122+00:00"
+  },
+  "1203e1ec-a576-4a8b-8f57-75899fe3b454": {
+    "model_id": "1203e1ec-a576-4a8b-8f57-75899fe3b454",
+    "name": "Groq Compound",
+    "model_name": "groq/compound",
+    "provider": "groq",
+    "task": "chat",
+    "description": "",
+    "created_at": "2026-06-18T08:13:43.349958+00:00",
+    "updated_at": "2026-06-18T08:13:43.349958+00:00"
+  },
+  "55e49f2f-1bfc-4572-87ca-1e41aec1b710": {
+    "model_id": "55e49f2f-1bfc-4572-87ca-1e41aec1b710",
+    "name": "Groq Compound mini",
+    "model_name": "groq/compound-mini",
+    "provider": "groq",
+    "task": "chat",
+    "description": "",
+    "created_at": "2026-06-18T08:13:57.192528+00:00",
+    "updated_at": "2026-06-18T08:13:57.192528+00:00"
+  },
+  "aeddefe1-e3d9-4c71-bef0-d9d07b1801f4": {
+    "model_id": "aeddefe1-e3d9-4c71-bef0-d9d07b1801f4",
+    "name": "llama 3.1 8b",
+    "model_name": "llama-3.1-8b-instant",
+    "provider": "groq",
+    "task": "chat",
+    "description": "",
+    "created_at": "2026-06-18T08:14:21.319065+00:00",
+    "updated_at": "2026-06-18T08:14:21.319065+00:00"
+  },
+  "e044797c-6004-4cd1-986d-34693b1bbd88": {
+    "model_id": "e044797c-6004-4cd1-986d-34693b1bbd88",
+    "name": "llama 3.3 70b",
+    "model_name": "llama-3.3-70b-versatile",
+    "provider": "groq",
+    "task": "chat",
+    "description": "",
+    "created_at": "2026-06-18T08:14:36.997457+00:00",
+    "updated_at": "2026-06-18T08:14:36.997457+00:00"
+  },
+  "0f0ffc62-1137-4525-a3ac-76f848f3b5f7": {
+    "model_id": "0f0ffc62-1137-4525-a3ac-76f848f3b5f7",
+    "name": "GPT OSS 120b",
+    "model_name": "openai/gpt-oss-120b",
+    "provider": "groq",
+    "task": "chat",
+    "description": "",
+    "created_at": "2026-06-18T08:14:52.722743+00:00",
+    "updated_at": "2026-06-18T08:14:52.722743+00:00"
+  },
+  "0fb2a126-f495-4f9d-b5d7-a785a652d980": {
+    "model_id": "0fb2a126-f495-4f9d-b5d7-a785a652d980",
+    "name": "GPT OSS 20b",
+    "model_name": "openai/gpt-oss-20b",
+    "provider": "groq",
+    "task": "chat",
+    "description": "",
+    "created_at": "2026-06-18T08:15:03.752166+00:00",
+    "updated_at": "2026-06-18T08:15:03.752166+00:00"
+  }
+}

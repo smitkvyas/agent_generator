@@ -1,0 +1,14 @@
+{
+  "e8be241e-2b76-4c00-878a-977f5b813f9c": {
+    "pipeline_id": "e8be241e-2b76-4c00-878a-977f5b813f9c",
+    "name": "MH Flow",
+    "mode": "router",
+    "agent_ids": [
+      "e0d92bc0-30fc-426d-b311-6dbda64d8b07",
+      "e09eb426-03e9-46ab-b29c-681ba492ebfb"
+    ],
+    "entry_agent_id": "e0d92bc0-30fc-426d-b311-6dbda64d8b07",
+    "created_at": "2026-06-18T11:07:48.900243+00:00",
+    "updated_at": "2026-06-18T11:07:48.900243+00:00"
+  }
+}

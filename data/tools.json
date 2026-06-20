@@ -1,0 +1,137 @@
+{
+  "ffea8f06-f13b-479d-8bfa-2c69e43fe406": {
+    "tool_id": "ffea8f06-f13b-479d-8bfa-2c69e43fe406",
+    "name": "current weather",
+    "description": "Tool provides current weather condition of provided city name",
+    "endpoint_url": "http://api.weatherapi.com/v1/current.json",
+    "http_method": "GET",
+    "headers": {
+      "key": "b50f455621464133a4b61727261706"
+    },
+    "parameters": [
+      {
+        "name": "q",
+        "type": "string",
+        "description": "City name",
+        "required": false
+      }
+    ],
+    "created_at": "2026-06-17T07:51:03.424847+00:00",
+    "updated_at": "2026-06-17T07:55:02.854047+00:00"
+  },
+  "b978b7ad-4ba5-4886-80b3-b63669619394": {
+    "tool_id": "b978b7ad-4ba5-4886-80b3-b63669619394",
+    "name": "Product Recommendation Tool",
+    "description": "Tool to get product recommendation",
+    "endpoint_url": "https://mila-unerected-accusatorily.ngrok-free.dev/recommendations/",
+    "http_method": "GET",
+    "headers": {
+      "X-API-Key": "asrU392@fngnjk4kng"
+    },
+    "parameters": [
+      {
+        "name": "limit",
+        "type": "number",
+        "description": "Number of products to return",
+        "required": false
+      },
+      {
+        "name": "category",
+        "type": "string",
+        "description": "Filter by category (e.g. 'Footwear', 'Clothing and Accessories')",
+        "required": false
+      },
+      {
+        "name": "sub_category",
+        "type": "string",
+        "description": "Filter by sub-category (e.g. 'Topwear', 'Bottomwear')",
+        "required": false
+      },
+      {
+        "name": "brand",
+        "type": "string",
+        "description": "Filter by brand name (partial match)",
+        "required": false
+      },
+      {
+        "name": "min_price",
+        "type": "number",
+        "description": "Minimum selling price in INR",
+        "required": false
+      },
+      {
+        "name": "max_price",
+        "type": "number",
+        "description": "Maximum selling price in INR",
+        "required": false
+      },
+      {
+        "name": "min_rating",
+        "type": "number",
+        "description": "Minimum average rating (0-5)",
+        "required": false
+      },
+      {
+        "name": "search",
+        "type": "string",
+        "description": "Search term matched against product title and description",
+        "required": true
+      }
+    ],
+    "created_at": "2026-06-17T09:08:36.237616+00:00",
+    "updated_at": "2026-06-17T09:45:20.791308+00:00"
+  },
+  "894fc4c9-c90c-4026-846d-04bdabb24fd4": {
+    "tool_id": "894fc4c9-c90c-4026-846d-04bdabb24fd4",
+    "name": "Search Product Tool",
+    "description": "Tool to get product recommendation",
+    "endpoint_url": "https://mila-unerected-accusatorily.ngrok-free.dev/recommendations/",
+    "http_method": "GET",
+    "headers": {
+      "X-API-Key": "asrU392@fngnjk4kng"
+    },
+    "parameters": [
+      {
+        "name": "search",
+        "type": "string",
+        "description": "Search term matched against product title and description",
+        "required": false
+      }
+    ],
+    "created_at": "2026-06-17T10:02:25.375779+00:00",
+    "updated_at": "2026-06-17T10:03:25.805847+00:00"
+  },
+  "c52ce21c-8b41-45d2-bc5a-9b003a6c1535": {
+    "tool_id": "c52ce21c-8b41-45d2-bc5a-9b003a6c1535",
+    "name": "Get Catalog",
+    "description": "Get catalog for category and/or sub-category",
+    "endpoint_url": "https://mila-unerected-accusatorily.ngrok-free.dev/recommendations/catalog",
+    "http_method": "GET",
+    "headers": {
+      "X-API-Key": "asrU392@fngnjk4kng"
+    },
+    "parameters": [],
+    "created_at": "2026-06-18T08:24:25.057077+00:00",
+    "updated_at": "2026-06-18T08:24:25.057077+00:00"
+  },
+  "63ed32a3-a8de-48f4-937a-398c1ddb6bb6": {
+    "tool_id": "63ed32a3-a8de-48f4-937a-398c1ddb6bb6",
+    "name": "Product Details Tool",
+    "description": "Tool to get particular product detail",
+    "endpoint_url": "https://mila-unerected-accusatorily.ngrok-free.dev/recommendations/{id}",
+    "http_method": "GET",
+    "headers": {
+      "X-API-Key": "asrU392@fngnjk4kng"
+    },
+    "parameters": [
+      {
+        "name": "id",
+        "type": "string",
+        "description": "Product id",
+        "required": true
+      }
+    ],
+    "created_at": "2026-06-18T08:31:00.516726+00:00",
+    "updated_at": "2026-06-18T08:33:39.897594+00:00"
+  }
+}
